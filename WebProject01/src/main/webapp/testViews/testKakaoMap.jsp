@@ -1,3 +1,4 @@
+<%@page import="com.woobab.consts.Const"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="EUC-KR" isELIgnored="false"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -11,9 +12,11 @@
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0be563747fda0ec6ddacbb930f5089b3&libraries=services,clusterer,drawing"></script>
 	
 	<script>
-	
-	// TestKakaoMapAPIController로부터 ModelAndView의 RequestScope에 전달된 파라미터값을 EL로 받는다.
-	var keyword = '${ requestScope.location_search_keyword}'
+	// TestKakaoMapAPIController로부터 ModelAndView의 RequestScope에 전달된 파라미터값을 jsp에서 받는 방법
+	// 방법1: EL을 이용하는 방법
+	// var keyword = '${ requestScope.location_search_keyword}'
+	// 방법2: JSTL을 이용하는 방법
+	var keyword = '<%= request.getAttribute(Const.LOC_SEARCH_KEYWORD)%>'
 	
 	// 마커를 클릭하면 장소명을 표출할 인포윈도우 입니다
 	var infowindow = new kakao.maps.InfoWindow({zIndex:1});
