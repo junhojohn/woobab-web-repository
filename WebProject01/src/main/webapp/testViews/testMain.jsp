@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<link rel="stylesheet" href="../../resources/css/locationMainSearchBar.css" type="text/css">
+<link rel="stylesheet" href="../../resources/css/testMain.css" type="text/css">
 <title>Insert title here</title>
 </head>
 <body>
