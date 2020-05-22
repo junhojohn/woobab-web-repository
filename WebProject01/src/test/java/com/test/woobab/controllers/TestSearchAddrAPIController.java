@@ -24,4 +24,5 @@ public class TestSearchAddrAPIController {
 		log.info(getClass().getName() + ".testSearchAddr() ended.");
 		return modelAndView;
 	}
+	
 }

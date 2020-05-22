@@ -5,6 +5,7 @@ public enum TEST_REQ_ACTION_ENUM {
 	REQ_TEST_MAIN("testMain", 			"testViews/testMain.jsp", 		"/testMain.test"),
 	REQ_TEST_KAKAO_MAP("testKakaoMap", 	"testViews/testKakaoMap.jsp", 	"/testKakaoMap.test"),
 	REQ_TEST_BOOTSTRAP("testBootstrap",	"testViews/testBootstrap.jsp", 	"/testBootstrap.test"),
+	REQ_TEST_MAIN02("testMain02", 		"testViews/testMain02.jsp",		"/testMain02.test"),
 	REQ_TEST_OVERLAY("testOverlay",		"testViews/testOverlay.jsp", 	"/testOverlay.test");
 	
 	private String requestActionKey;
