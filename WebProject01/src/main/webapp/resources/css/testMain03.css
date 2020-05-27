@@ -1,0 +1,49 @@
+#mainHeader {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    width: 100%; /* for IE 6 */
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+
+#mainNavbar, #mainBrand {
+	width:100%;
+	text-align:center;	
+}
+
+#mainTitleSection {
+    position: absolute; 
+    top: 200px; 
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    align-items: center;    	
+}
+
+#mainTitle01, #mainTitle02 {
+	color: #34495e;
+	text-align:center;
+    justify-content: center;
+    align-items: center;    	
+}
+
+#gotoMapForm {
+	padding-top:20px; 
+	padding-bottom:20px;
+	text-align:center;
+    justify-content: center;
+    align-items: center;	
+}
+
+#buttonFindCurrentLocation {
+	width:400px; 
+	height:50px;
+}
+
+#buttonGotoMap {
+	width:400px; 
+	height:50px;	
+}

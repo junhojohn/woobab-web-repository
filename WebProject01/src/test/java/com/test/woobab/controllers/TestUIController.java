@@ -35,5 +35,14 @@ public class TestUIController {
 		log.info(getClass().getName() + ".testMain02() ended.");
 		return modelAndView;
 	}
+	
+	@RequestMapping(value="/testMain03.test", method=RequestMethod.GET)
+	public ModelAndView testMain03() {
+		log.info(getClass().getName() + ".testMain03() started.");
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName(TEST_REQ_ACTION_ENUM.REQ_TEST_MAIN03.getJspPathURI());
+		log.info(getClass().getName() + ".testMain03() ended.");
+		return modelAndView;
+	}
 
 }
