@@ -2,14 +2,16 @@ package com.woobab.consts;
 
 public enum TEST_REQ_ACTION_ENUM {
 
-	REQ_TEST_MAIN("testMain", 			"testViews/testMain.jsp", 		"/testMain.test"),
-	REQ_TEST_KAKAO_MAP("testKakaoMap", 	"testViews/testKakaoMap.jsp", 	"/testKakaoMap.test"),
-	REQ_TEST_MAP("testMap", 			"testViews/testMap.jsp", 		"/testMap.test"),
-	REQ_TEST_BOOTSTRAP("testBootstrap",	"testViews/testBootstrap.jsp", 	"/testBootstrap.test"),
-	REQ_TEST_MAIN02("testMain02", 		"testViews/testMain02.jsp",		"/testMain02.test"),
-	REQ_TEST_MAIN03("testMain03", 		"testViews/testMain03.jsp",		"/testMain03.test"),
-	REQ_TEST_MAIN04("testMain04", 		"testViews/testMain04.jsp",		"/testMain04.test"),
-	REQ_TEST_OVERLAY("testOverlay",		"testViews/testOverlay.jsp", 	"/testOverlay.test");
+	REQ_TEST_MAIN("testMain", 				"testViews/testMain.jsp", 							"/testMain.test"),
+	REQ_TEST_KAKAO_MAP("testKakaoMap", 		"testViews/testKakaoMap.jsp", 						"/testKakaoMap.test"),
+	REQ_TEST_MAP("testMap", 				"testViews/testMap.jsp", 							"/testMap.test"),
+	REQ_TEST_BOOTSTRAP("testBootstrap",		"testViews/testBootstrap.jsp", 						"/testBootstrap.test"),
+	REQ_TEST_MAIN02("testMain02", 			"testViews/testMain02.jsp",							"/testMain02.test"),
+	REQ_TEST_MAIN03("testMain03", 			"testViews/testMain03.jsp",							"/testMain03.test"),
+	REQ_TEST_MAIN04("testMain04", 			"testViews/testMain04.jsp",							"/testMain04.test"),
+	REQ_TEST_GEO_LOC("testGeoLocation",		"testViews/geolocation/testGeoLocation.jsp", 		"/testGeoLocation.test"),
+	REQ_TEST_MAP_GEO_LOC("testGeoLocation",	"testViews/mapGeolocation/testMapGeoLocation.jsp", 	"/testMapGeoLocation.test"),
+	REQ_TEST_OVERLAY("testOverlay",		"testViews/testOverlay.jsp", 					"/testOverlay.test");
 	
 	private String requestActionKey;
 	private String jspPathURI;
