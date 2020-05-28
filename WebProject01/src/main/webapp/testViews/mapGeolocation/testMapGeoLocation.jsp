@@ -21,6 +21,7 @@
 			
 			/*html 문서를 로드할 때*/
 			$(document).ready(function(){
+				// Geo Location 허용일 때는 띄우지 말아야 한다.
 				createGPSConfirmModal()
 			})
 			
