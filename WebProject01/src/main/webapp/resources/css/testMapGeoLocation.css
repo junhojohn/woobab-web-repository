@@ -1,0 +1,62 @@
+#mainNavbar, #mainBrand {
+	width:100%;
+	text-align:center;	
+}
+
+#map {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#map_wrap {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 100vh;	
+}
+
+input:-ms-input-placeholder { 
+	color: #e42b71
+}
+
+input::-webkit-input-placeholder { 
+	color: #e42b71
+}
+
+input::-moz-placeholder { 
+	color: #e42b71
+}
+
+#searchBox {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	bottom: 0;
+	z-index: 1;
+	height: 40px;
+	width: 470px;
+	border: 1px solid #e42b71;
+	background: #ffffff;
+	overflow-y:auto;
+}
+
+#searchInput {
+	font-size: 20px;
+	width: 400px;
+	border: 0px;
+	outline: none;
+	float: left;
+}
+
+#searchButton {
+	width: 50px;
+	height: 100%;
+	boder: 0px;
+	background: #e42b71;
+	outline: none;
+	float: right;
+	color: #ffffff;
+}

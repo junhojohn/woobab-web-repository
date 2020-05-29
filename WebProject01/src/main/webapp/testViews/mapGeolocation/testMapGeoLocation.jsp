@@ -109,8 +109,16 @@
 		<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
 		  <a id="mainBrand" class="navbar-brand" href="#">카드 가맹점 찾기 서비스</a>
 		</nav>
-			
-		<div id="map" style="width:100wh;height:100vh;"></div>
-
+		
+		<div id="map_wrap" class="map_wrap">
+			<div id="map" class="map"></div>
+			<div id="searchBox" class="searchBox">
+				<input id="searchInput" class="searchInput" type="text" placeholder="우리 동네 혹은 가맹점을 검색해보세요.">
+				<button id="searchButton" class="searchButton">검색</button>
+			</div>			
+		</div>	
+		
+		
+		
 	</body>
 </html>
