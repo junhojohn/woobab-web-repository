@@ -11,7 +11,10 @@
 		<link rel="stylesheet" href="../../../resources/css/sweetalert2.min.css" type="text/css">
 		<script type="text/javascript" src="../../../resources/js/jquery-1.7.1.min.js" ></script>
 		<script type="text/javascript" src="../../../resources/js/jquery-ui-1.9.1.min.js" ></script> 
-		<script type="text/javascript" src="../../../resources/js/sweetalert2.min.js" ></script>  
+		<script type="text/javascript" src="../../../resources/js/sweetalert2.min.js" ></script>
+		<!-- deploy용 카카오 맵 api 키 -->  
+		<!--  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c653575481fafacddf8a4a01c8c4abb6&libraries=services,clusterer,drawing"></script>-->
+		<!-- dev용 카카오 맵 api 키 -->
 		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0be563747fda0ec6ddacbb930f5089b3&libraries=services,clusterer,drawing"></script>
 		
 		<script>
